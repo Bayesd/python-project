@@ -3,7 +3,7 @@
 import requests
 
 def append_file():
-    file = open("/home/ubuntu/workspace/namnsdag.txt", "a+")
+    file = open("/home/ubuntu/workspace/cron_namnsdagar.txt", "a+")
     file.write(get_todays_name_and_time())
 
 def get_todays_name_and_time():
