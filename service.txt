@@ -1,0 +1,9 @@
+[Unit]
+Description=Run a python program to print the name day name to a textfile
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/namnsdag
+
+[Install]
+WantedBy=multi-user.target

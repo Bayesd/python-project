@@ -15,4 +15,3 @@ def get_todays_name_and_time():
     return f"{time}\nDagens namnsdag: {name}\n\n"
 
 append_file()
-

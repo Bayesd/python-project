@@ -1,0 +1,10 @@
+[Unit]
+Description=Run nameday.service everyday
+
+[Timer]
+Unit=nameday.service
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
