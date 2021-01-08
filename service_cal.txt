@@ -1,0 +1,9 @@
+[Unit]
+Description=Run a python program to print a modified calendar to a textfile
+
+[Service]
+ExecStart=/usr/local/bin/systemd_kalender
+
+
+[Install]
+WantedBy=multi-user.target
